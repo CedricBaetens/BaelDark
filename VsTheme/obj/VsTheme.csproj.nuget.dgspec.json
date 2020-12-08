@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cedri\\Documents\\Source\\CBA-Computing\\VsTheme\\VsTheme\\VsTheme.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cedri\\Documents\\Source\\CBA-Computing\\VsTheme\\VsTheme\\VsTheme.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cedri\\Documents\\Source\\CBA-Computing\\VsTheme\\VsTheme\\VsTheme.csproj",
+        "projectName": "VsTheme",
+        "projectPath": "C:\\Users\\cedri\\Documents\\Source\\CBA-Computing\\VsTheme\\VsTheme\\VsTheme.csproj",
+        "packagesPath": "C:\\Users\\cedri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cedri\\Documents\\Source\\CBA-Computing\\VsTheme\\VsTheme\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cedri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.1.3132, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.200, )"
+            },
+            "Microsoft.VisualStudio.VsixColorCompiler": {
+              "target": "Package",
+              "version": "[16.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
