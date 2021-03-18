@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VsTheme", "VsTheme\VsTheme.csproj", "{6572E388-304D-4B3E-8A75-7599658A5E70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bael Dark", "Bael Dark\Bael Dark.csproj", "{91211D6E-3BDB-4F8E-9535-E04D3404E3A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6572E388-304D-4B3E-8A75-7599658A5E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6572E388-304D-4B3E-8A75-7599658A5E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6572E388-304D-4B3E-8A75-7599658A5E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6572E388-304D-4B3E-8A75-7599658A5E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91211D6E-3BDB-4F8E-9535-E04D3404E3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91211D6E-3BDB-4F8E-9535-E04D3404E3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91211D6E-3BDB-4F8E-9535-E04D3404E3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91211D6E-3BDB-4F8E-9535-E04D3404E3A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

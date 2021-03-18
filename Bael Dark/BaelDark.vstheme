@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="VsTheme (1)" GUID="{28307f8d-7966-4160-a7ab-5775c69ffb36}" BaseGUID="{0024020f-bba3-4365-9ea1-63b23313d509}">
+  <Theme Name="Bael Dark (2)" GUID="{de473257-50c3-4d77-be3c-7851d4d06c72}" BaseGUID="{0024020f-bba3-4365-9ea1-63b23313d509}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF282C34" />
@@ -379,7 +379,7 @@
         <Background Type="CT_RAW" Source="FF8C8D90" />
       </Color>
       <Color Name="PropertyValueLocal">
-        <Background Type="CT_RAW" Source="FFBDBDBD" />
+        <Background Type="CT_RAW" Source="DEFA0000" />
       </Color>
       <Color Name="MenuSeparator">
         <Background Type="CT_RAW" Source="FF282C34" />
@@ -1995,7 +1995,7 @@
       </Color>
       <Color Name="CurrentLineActiveFormat">
         <Background Type="CT_RAW" Source="FF364154" />
-        <Foreground Type="CT_RAW" Source="FF364154" />
+        <Foreground Type="CT_AUTOMATIC" Source="00000000" />
       </Color>
       <Color Name="deltadiff.remove.line">
         <Background Type="CT_RAW" Source="FF2D0000" />
@@ -2251,7 +2251,7 @@
       </Color>
       <Color Name="interface name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE5C07B" />
+        <Foreground Type="CT_RAW" Source="FFE0C543" />
       </Color>
       <Color Name="type parameter name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -2267,7 +2267,7 @@
       </Color>
       <Color Name="class name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE5C07B" />
+        <Foreground Type="CT_RAW" Source="FF61AFEF" />
       </Color>
       <Color Name="delegate name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -2507,11 +2507,11 @@
       </Color>
       <Color Name="local name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE06C75" />
+        <Foreground Type="CT_RAW" Source="FFF1B1F5" />
       </Color>
       <Color Name="parameter name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE06C75" />
+        <Foreground Type="CT_RAW" Source="FF979797" />
       </Color>
       <Color Name="method name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2523,7 +2523,7 @@
       </Color>
       <Color Name="namespace name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE5C07B" />
+        <Foreground Type="CT_RAW" Source="FF98C379" />
       </Color>
       <Color Name="TextMate.Classifier">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2566,50 +2566,6 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="VSTU.MessageClassification">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - attribute name">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - attribute quotes">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - attribute value">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - cdata section">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - comment">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - delimiter">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - entity reference">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - name">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - processing instruction">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - text">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="axml - resource url">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -2693,7 +2649,7 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="inline parameter name hints">
+      <Color Name="inline hints">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -2709,9 +2665,13 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="field name">
+      <Color Name="record class name">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="field name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFE5C07B" />
       </Color>
       <Color Name="enum member name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2722,8 +2682,8 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="property name">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FFC678DD" />
+        <Foreground Type="CT_RAW" Source="FFC678DD" />
       </Color>
       <Color Name="event name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2746,6 +2706,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Line Number">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Word Wrap Glyph">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -2782,6 +2746,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="MarkerFormatDefinition/VerticalHighlight">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="UnnecessaryCodeDiagnostic">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -7767,7 +7735,7 @@
     <Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
       <Color Name="Keyword">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC678DD" />
+        <Foreground Type="CT_RAW" Source="FFE06C75" />
       </Color>
       <Color Name="Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -7915,7 +7883,7 @@
       </Color>
       <Color Name="XML Attribute">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE5C07B" />
+        <Foreground Type="CT_RAW" Source="FFE06C75" />
       </Color>
       <Color Name="XML Processing Instruction">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8479,6 +8447,11 @@
       <Color Name="TemplateNewTagSelected">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
         <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+    </Category>
+    <Category Name="ThemedUtilityDialog" GUID="{e2961a72-48a5-4da7-8168-1fee490f78a7}">
+      <Color Name="WindowPanel">
+        <Background Type="CT_RAW" Source="FF282C34" />
       </Color>
     </Category>
     <Category Name="TreeView" GUID="{92ecf08e-8b13-4cf4-99e9-ae2692382185}">
